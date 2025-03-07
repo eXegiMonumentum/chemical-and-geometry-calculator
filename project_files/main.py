@@ -6,16 +6,16 @@ def main():
     while True:
         print("""
         Choose calculator type:
-        1. Geometry calculator
-        2. Chemistry calculator
+        1.Chemistry calculator  
+        2.Geometry calculator
         3. Exit
         """)
         choice = input("Choose (1-3): ")
 
         if choice == "1":
-            geometry_calculator()
-        elif choice == "2":
             chemistry_calculator()
+        elif choice == "2":
+            geometry_calculator()
         elif choice == "3":
             print("Goodbye!")
             break
